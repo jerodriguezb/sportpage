@@ -1,0 +1,52 @@
+
+ *{
+  margin: 0;
+  padding: 0; 
+} 
+
+html{
+   
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+}
+
+/* DIVIDE PANTALLA 2 Col Izq - 8 Col Centro - 2 Col Derecha  */
+
+  .dividir{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+      
+}  
+
+.fuente{
+
+  font-family: 'Oswald', san-serif; 
+  font-size: 2rem; 
+
+}
+
+
+p{
+
+  font-size: 1.55em;
+
+}
+/* responsive para ipad pro */
+@media (width:1024px) {
+  #ultimo-m {
+    display: none;
+  } 
+  marquee{
+    position: absolute;
+    right: 0;
+    height: 1336px;
+  }
+  #footer{
+    z-index: 2;
+  }
+  
+}

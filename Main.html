@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="stylesheet" href="./StyleCentral.css">
+      <link rel="stylesheet" href="./Stylefooter.css">
+      <link rel="stylesheet" href="./StyleNavBar.css">
+      <link rel="stylesheet" href="./StyleCentralIzq.css">
+      <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1195687266/SPlogo_400x400.png" type="image/x-icon">
+      <!-- fuente -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+      <!-- link de fuente -->
+      <title>SportPage</title>
+   </head>
+   <body style=" overflow-x:hidden ;">
+      <!-- Inicio Header -->
+      <header id="header" class="sticky-top">
+         <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+               <a href="" class="navbar-brand">
+               <img src="https://pbs.twimg.com/profile_images/1195687266/SPlogo_400x400.png" alt="logoSP">
+               </a>
+               <button class="navbar-toggler"  data-target="#menu"  data-toggle="collapse" type="button">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="menu">
+                  <!-- lista de items -->
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                        <a href="./futbol.html" class="nav-link">Fútbol</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./rugby.html" class="nav-link">Rugby</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./tenis.html" class="nav-link">Tenis</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./basquet.html" class="nav-link">Básquetbol</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./deportemotor.html" class="nav-link">Deporte Motor</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./error404.html" target="_blank" class="nav-link">Otros Deportes</a>
+                     </li>
+                  </ul>
+                  <!-- fin de items -->
+                  <!-- Lista sin estilo para en vivo y fecha -->
+                  <ul class="list-unstyled ml-auto">
+                     <li>
+                        <a href="https://futbolparatodos.net/webmasters/" target="_blank">
+                        <span class="badge badge-pill badge-info ">EN VIVO</span>
+                        </a>
+                     </li>
+                     <li>
+                        <span class="text-light">
+                           <script>
+                              var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                              var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+                              var f=new Date();
+                              document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                           </script>
+                        </span>
+                     </li>
+                  </ul>
+                  <!-- fin de lista sin estilo -->
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- Fin de header -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <main>
+         <!-- Configuracion de Pantallas Responsive -->
+         <div class="row">
+            <!-- Columna Izquierda x 2-->
+            <div class="col-lg-2" id="ultimo-m">
+               <div class="d-block d-md-block d-lg-block">
+                  <div class="card mt-0">
+                     <div class="card-header">
+                        <H3> ULTIMO MOMENTO... </H3>
+                     </div>
+                     <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                           <div class="dividir">
+                              <div class="fuente">
+                                 <div class="card mb-3 mt-0" style="max-width: 590px;">
+                                    <img src="./Image/boca eliminado.jpg" class="card-img-top img-fluid" alt="Boca eliminado de la copa">
+                                    <div class="card-body">
+                                       <h3>Santos goleo al xeneixe y paso a la final de la Copa Libertadores.</h3>
+                                       <button class="btn-lg btn-danger btn-block"> MAS DETALLES</button>
+                                    </div>
+                                 </div>
+                                 <div class="card mb-3 mt-0" style="max-width: 590px;">
+                                    <img src="Image/boca campeon.jpg" class="card-img-top img-fluid" alt="Boca campeón de la copa Maradona">
+                                    <div class="card-body">
+                                       <h3>Boca campeón de la Copa Diego Maradona.</h3>
+                                       <button class="btn-lg btn-danger btn-block">MAS DETALLES</button>
+                                    </div>
+                                 </div>
+                                 <div class="card mb-3 mt-0" style="max-width: 590px;">
+                                    <img src="Image/Conor-McGregor-vuelve-a-la-cima-768x499.jpg" class="card-img-top img-fluid" alt="Conor McGregor">
+                                    <div class="card-body">
+                                       <h3>Conor McGregor listo para su segunda pelea con Dustin Poirier</h3>
+                                       <button class="btn-lg btn-danger btn-block">MAS DETALLES</button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </blockquote>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Columna Central x 8 -->
+            <div class="col-lg-8">
+               <div class="card mt-0">
+                  <div class="card-header">
+                     <H3> MAS LEIDAS... </H3>
+                  </div>
+                  <div class="card-body">
+                     <blockquote class="blockquote mb-0">
+                        <!-- Alinea las cards de la columna central -->
+                        <div class="dividir">
+                           <div class="card mb-3 mt-0" style="max-width: 430px;">
+                              <div class="row no-gutters">
+                                 <div class="col-md-4">
+                                    <img src="./Image/Tevez_BocaJ.jpg" class="card-img" alt="BocaJRTevez">
+                                 </div>
+                                 <div class="col-md-8">
+                                    <div class="card-body">
+                                       <h3 class="card-title">Boca va por todo</h3>
+                                       <p class="card-text">El Xeneize intentará obtener una nueva copa nacional que lo ubique entre los más ganadores de la Argentina...</p>
+                                       <p class="card-text"><small class="text-muted">#1</small></p>
+                                       <a href="#" class="btn-lg btn-info"> IR A NOTA COMPLETA </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="card mb-3 mt-0" style="max-width: 430px;">
+                              <div class="row no-gutters">
+                                 <div class="col-md-4">
+                                    <img src="./Image/RiverPlateCaida.jpg" class="card-img" alt="RiverPlate">
+                                 </div>
+                                 <div class="col-md-8">
+                                    <div class="card-body">
+                                       <h3 class="card-title">Un nuevo renacer para River</h3>
+                                       <p class="card-text">El Millonario estuvo muy cerca de lograr una remontada histórica en San Pablo. Lo que parecía el final de una etapa...</p>
+                                       <p class="card-text"><small class="text-muted">#2</small></p>
+                                       <a href="#" class="btn-lg btn-info"> IR A NOTA COMPLETA </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="card mb-3 mt-0" style="max-width: 430px;">
+                              <div class="row no-gutters">
+                                 <div class="col-md-4">
+                                    <img src="./Image/AtleticoTucumanGolAlustiza.jpg" class="card-img" alt="ATU">
+                                 </div>
+                                 <div class="col-md-8">
+                                    <div class="card-body">
+                                       <h3 class="card-title">Atlético Tucumán amarga a Arsenal</h3>
+                                       <p class="card-text">Al equipo de Sergio Rondina se le escapó increíblemente sobre el final y cayó ante Atlético Tucumán por 3-2 como visitante...</p>
+                                       <p class="card-text"><small class="text-muted">#3</small></p>
+                                       <a href="#" class="btn-lg btn-info"> IR A NOTA COMPLETA </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="card mb-3 mt-0" style="max-width: 430px;">
+                              <div class="row no-gutters">
+                                 <div class="col-md-4">
+                                    <img src="./Image/Crespo.jpg" class="card-img" alt="HCrespo">
+                                 </div>
+                                 <div class="col-md-8">
+                                    <div class="card-body">
+                                       <h3 class="card-title">Crespo, técnico de Defensa:</h3>
+                                       <p class="card-text">El entrenador del Halcón se mostró feliz por lo que lograron ante Coquimbo Unido..."</p>
+                                       <p class="card-text"><small class="text-muted">#4</small></p>
+                                       <a href="#" class="btn-lg btn-info"> IR A NOTA COMPLETA </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="card mb-3 mt-0" style="max-width: 430px;">
+                              <div class="row no-gutters">
+                                 <div class="col-md-4">
+                                    <img src="./Image/JockeyCesped.jpg" class="card-img" alt="JockeyCesped">
+                                 </div>
+                                 <div class="col-md-8">
+                                    <div class="card-body">
+                                       <h3 class="card-title">Las Leonas están segundas en la clasificación femenina</h3>
+                                       <p class="card-text"> Países Bajos y Argentina figuran al frente de la clasificación femenina..."</p>
+                                       <p class="card-text"><small class="text-muted">#5</small></p>
+                                       <a href="#" class="btn-lg btn-info"> IR A NOTA COMPLETA </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="card mb-3 mt-0" style="max-width: 430px;">
+                              <div class="row no-gutters">
+                                 <div class="col-md-4">
+                                    <img src="./Image/rugby.jpg" class="card-img" alt="Rugby">
+                                 </div>
+                                 <div class="col-md-8">
+                                    <div class="card-body">
+                                       <h3 class="card-title">Salpicados</h3>
+                                       <p class="card-text">La frase de un jugador de los Pumas que reavivó un dilema del rugby argentino: las transgresiones al amateurismo..."</p>
+                                       <p class="card-text"><small class="text-muted">#6</small></p>
+                                       <a href="#" class="btn-lg btn-info"> IR A NOTA COMPLETA </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </blockquote>
+                  </div>
+               </div>
+            </div>
+            <!-- Columna Derecha x 2 -->
+            <div class="col-lg-2">
+               <div class="d-none d-md-none d-lg-block">
+                  <div class="card mt-0">
+                     <div class="card-header">
+                        <H3> RESULTADOS en linea.. </H3>
+                     </div>
+                     <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                           <div class="fuente">
+                              <!-- Marquesina para desplazamiento del texto-->
+                              <marquee  direction="up" loop="infinite" scrolldelay="100" >
+                                 <h2> Futbol Aleman </h2>
+                                 <h4> Finalizado:</h4>
+                                 <h7> Borussia Dortmund 1 - 1 Mainz.</h7>
+                                 <h4> Finalizado:</h4>
+                                 <h7> Colonia 0 - 0 Hertha BSC.</h7>
+                                 <h4> Finalizado:</h4>
+                                 <h7> Hoffenheim 0 - 0 Bielefeld.</h7>
+                                 <h4> Finalizado:</h4>
+                                 <h7> Werder Bremen 2 - 0 Augsburgo.</h7>
+                                 <h4> Finalizado:</h4>
+                                 <h7> Wolfsburgo 2 - 2 RB Leipzig.</h7>
+                                 <h4> 43´ Segundo Tiempo:</h4>
+                                 <h7>  47 Stuttgart 0 - 1 Borussia M'gladbach.</h7>
+                                 <h7>  Bayern Munich 2 - 1 Hertha BSC B.</h7>
+                                 <h2> .... </h2>
+                                 <h2> Futbol Ingles </h2>
+                                 <h4> Finalizado:</h4>
+                                 <h7> Wolves 2 - 3 West Brom.</h7>
+                              </marquee>
+                           </div>
+                        </blockquote>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Cierra Row -->
+      </main>
+      <footer id="footer">
+         <div class="container">
+            <div class="row justify-content-center">
+               <!-- Preguntas frecuentes -->
+               <div class="col-sm col-md col-lg" id="top-margins">
+                  <h1 class="footer-modals"><a href="#modal-fqa" data-toggle="modal" data-target="#modal-fqa">
+                     FQA</a>
+                  </h1>
+                  <div class="modal fade" id="modal-fqa" tabindex="-1" role="dialog" aria-labelledby="modal-fqa" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-top modal-lg" role="document">
+                        <div class="modal-content">
+                           <h1 class="modal-title" id="modal-fqa">Preguntas Frecuentes</h1>
+                           <div class="modal-body">
+                              <div class="card text-white bg-danger" style="width: 100%;">
+                                 <ul class="list-group " id="modal-fqa">
+                                    <a href="./error404.html" target="_blank">
+                                       <li type="button" class="list-group-item text-left list-group-item-action" id="faq">Cuales son los metodos de pago para mi suscripcion?</li>
+                                    </a>
+                                    <a href="./error404.html" target="_blank">
+                                       <li type="button" class="list-group-item text-left list-group-item-action" id="faq">Cuanto dura mi suscripcion?</li>
+                                    </a>
+                                    <a href="./error404.html" target="_blank">
+                                       <li type="button" class="list-group-item text-left list-group-item-action" id="faq">Cuales son los beneficios?</li>
+                                    </a>
+                                    <a href="./error404.html" target="_blank">
+                                       <li type="button" class="list-group-item text-left list-group-item-action" id="faq">Como puedo pedir un reembolso?</li>
+                                    </a>
+                                    <a href="./error404.html" target="_blank">
+                                       <li type="button" class="list-group-item text-left list-group-item-action" id="faq">Como puedo recuperar mi contraseña?</li>
+                                    </a>
+                                 </ul>
+                              </div>
+                              <button type="button" class="btn btn-lg btn-cerrar" style="background:rgb(29, 53, 87) ;color: white;" data-dismiss="modal">Cerrar</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Modal con informacion de los Developers en cards -->
+               <div class="col-sm col-md col-lg" id="top-margins">
+                  <h1 class="footer-modals"><a href="#modal-devs" data-toggle="modal" data-target="#modal-devs">Developers</a></h1>
+                  <div class="modal fade" id="modal-devs" tabindex="-1" role="dialog" aria-labelledby="modal-devs" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-top modal-lg" role="document">
+                        <div class="modal-content">
+                           <h1 class="modal-title" id="dev-modal">Developers</h1>
+                           <div class="modal-body">
+                              <div class="container">
+                                 <div class="row justify-content-between">
+                                    <div class="d-flex justify-content-center">
+                                       <div class="row">
+                                          <div class="col-md d-flex justify-content-around col-sm d-flex justify-content-center">
+                                             <div class="card text-white bg-danger card-dev" style="width: 17rem;">
+                                                <img class="card-img-top" src="img-footer/Luis.png" alt="Imagen Luis" style="height: 50%;">
+                                                <div class="card-body">
+                                                   <h2 class="card-title">Luis Pace</h2>
+                                                   <span class="card-text">30 años. Técnico en Higiene y Seguridad, y futuro Licenciado. Dj de estilo House. Apasionado del gim y las artes marciales. Aprendiz de desarrollo web, una profesión la cual siempre le generó curiosidad de aprender.</span>
+                                                </div>
+                                                <div class="card-footer text-muted">
+                                                   <a target="_blank" href="https://en.wikipedia.org/wiki/HTML" class="badge badge-pill badge-info">HTML</a>
+                                                   <a target="_blank" href="https://en.wikipedia.org/wiki/CSS" class="badge badge-pill badge-info">CSS</a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md d-flex justify-content-around col-sm d-flex justify-content-center">
+                                             <div class="card text-white bg-danger card-dev" style="width: 17rem;">
+                                                <img class="card-img-top" src="img-footer/Facundo.jpeg" alt="Imagen Facundo" style="height: 50%;">
+                                                <div class="card-body">
+                                                   <h2 class="card-title">Facundo Sanchez</h2>
+                                                   <span class="card-text">Técnico en Informática profesional y personal. Estudiante de Ingenieria en Sistemas</span>
+                                                </div>
+                                                <div class="card-footer text-muted">
+                                                   <a target="_blank" href="https://en.wikipedia.org/wiki/HTML" class="badge badge-pill badge-info">HTML</a>
+                                                   <a target="_blank" href="https://en.wikipedia.org/wiki/CSS" class="badge badge-pill badge-info">CSS</a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md d-flex justify-content-around col-sm d-flex justify-content-center">
+                                             <div class="card text-white bg-danger card-dev" style="width: 17rem;">
+                                                <img class="card-img-top" src="img-footer/Julio.jpeg" alt="Imagen Julio" style="height: 50%;">
+                                                <div class="card-body">
+                                                   <h2 class="card-title">Julio Rodriguez B.</h2>
+                                                   <span class="card-text">Especialista en Tecnologia de Informacion con mas 20 años de experencia en empresas privadas y publicas de districion electrica.-
+                                                      Actualmente gerenciando en la industria de las comunicaciones basados en Call Center.</span>
+                                                </div>
+                                                <div class="card-footer text-muted">
+                                                   <a target="_blank" href="https://en.wikipedia.org/wiki/HTML" class="badge badge-pill badge-info">HTML</a>
+                                                   <a target="_blank" href="https://en.wikipedia.org/wiki/CSS" class="badge badge-pill badge-info">CSS</a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md d-flex justify-content-around col-sm d-flex justify-content-center">
+                                             <div class="card text-white bg-danger card-dev" style="width: 17rem;">
+                                                <img class="card-img-top" src="img-footer/Nico.jpg" alt="Imagen Nicolas" style="height: 50%;">
+                                                <div class="card-body">
+                                                   <h2 class="card-title">Nico Martinez</h2>
+                                                   <span class="card-text">Estudiante en Rolling Code, con titulo secundario, cursando programa Full Stack para el desarrollo front-end y back-end.</span>
+                                                </div>
+                                                <div class="card-footer text-muted">
+                                                   <a target="_blank" href="https://en.wikipedia.org/wiki/HTML" class="badge badge-pill badge-info">HTML</a>
+                                                   <a target="_blank" href="https://en.wikipedia.org/wiki/CSS" class="badge badge-pill badge-info">CSS</a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <button type="button" class="btn btn-lg btn-cerrar" style="background:rgb(29, 53, 87) ;color: white;" data-dismiss="modal" style="width: 100%;">Cerrar</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Pildora contactanos con formulario -->
+               <div class="col-sm col-md col-lg" id="top-margins">
+                  <style>.contacto-devs{
+                     display: flex;
+                     flex-wrap: wrap;
+                     display: flex;
+                     align-items: center;
+                     justify-content: space-between;
+                     min-height: 35rem;}
+                  </style>
+                  <h1 class="footer-modals"><a href="#modal-contacto" data-toggle="modal" data-target="#modal-contacto">Contactanos</a></h1>
+                  <div class="modal fade" id="modal-contacto" tabindex="-1" role="dialog" aria-labelledby="modal-contacto" aria-hidden="true">
+                     <div class="modal-dialog modal-dialog-top modal-lg" role="document">
+                        <div class="modal-content contacto-devs">
+                           <h1 class="modal-title" id="contacto-devs">Contacto Developers</h1>
+                           <div class="modal-body">
+                              <style>.card-border{
+                                 border: 0.4rem solid rgb(29, 53, 87);
+                                 padding-bottom: 3%;
+                                 border-radius: 1rem;
+                                 min-height: 35rem;
+                                 max-width: 19rem;}
+                              </style>
+                              <div class="row justify-content-between">
+                                 <div class="col-sm col-md col-lg d-flex justify-content-center">
+                                    <div class="card card-border" style="width: auto; height: 35rem;">
+                                       <div class="card-body card-info-devs">
+                                          <br />
+                                          <span class="card-title card-title-devs">Luis Pace</span>
+                                          <br />
+                                          <p class="card-text email">Email: Luis.pace010@gmail.com</p>
+                                          <br />
+                                          <form>
+                                             <div class="form-group">
+                                                <label for="comentariotextarea">Contacto por mensaje</label>
+                                                <textarea class="form-control-md" id="comentariotextarea" rows="2" style="width: 80%;"></textarea>
+                                             </div>
+                                          </form>
+                                          <a href="./error404.html" target="_blank" class="btn btn-lg" id="enviar-msj-devs" style="background:rgb(29, 53, 87) ;color: white; width: 100%;">Enviar Mensaje</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm col-md col-lg d-flex justify-content-center">
+                                    <div class="card card-border" style="width: auto; height: 35rem;">
+                                       <div class="card-body card-info-devs">
+                                          <br />
+                                          <span class="card-title card-title-devs">Facundo Sanchez</span>
+                                          <br />
+                                          <p class="card-text email">Email: facufas1401@gmail.com</p>
+                                          <br />
+                                          <form>
+                                             <div class="form-group">
+                                                <label for="comentariotextarea">Contacto por mensaje</label>
+                                                <textarea class="form-control-md" id="comentariotextarea" rows="2" style="width: 80%;"></textarea>
+                                             </div>
+                                          </form>
+                                          <a href="./error404.html" target="_blank" class="btn btn-lg" id="enviar-msj-devs" style="background:rgb(29, 53, 87) ;color: white; width: 100%;">Enviar Mensaje</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm col-md col-lg d-flex justify-content-center">
+                                    <div class="card card-border" style="width: auto; height: 35rem;">
+                                       <div class="card-body card-info-devs">
+                                          <br />
+                                          <span class="card-title card-title-devs">Julio Rodriguez B.</span>
+                                          <br />
+                                          <p class="card-text email">Email: Jerodriguezb@gmail.com</p>
+                                          <br />
+                                          <form>
+                                             <div class="form-group">
+                                                <label for="comentariotextarea">Contacto por mensaje</label>
+                                                <textarea class="form-control-md" id="comentariotextarea" rows="2" style="width: 80%;"></textarea>
+                                             </div>
+                                          </form>
+                                          <a href="./error404.html" target="_blank" class="btn btn-lg" id="enviar-msj-devs" style="background:rgb(29, 53, 87) ;color: white; width: 100%;">Enviar Mensaje</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="col-sm col-md col-lg d-flex justify-content-center">
+                                    <div class="card card-border" style="width: auto; height: 35rem;">
+                                       <div class="card-body card-info-devs">
+                                          <br />
+                                          <span class="card-title card-title-devs">Nico Martinez</span>
+                                          <br />
+                                          <p class="card-text email">Email: nicomc2358@gmail.com</p>
+                                          <br />
+                                          <form>
+                                             <div class="form-group">
+                                                <label for="comentariotextarea">Contacto por mensaje</label>
+                                                <textarea class="form-control-md" id="comentariotextarea" rows="2" style="width: 80%;"></textarea>
+                                             </div>
+                                          </form>
+                                          <a href="./error404.html" target="_blank" class="btn btn-lg" id="enviar-msj-devs" style="background:rgb(29, 53, 87) ;color: white; width: 100%;">Enviar Mensaje</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <button type="button" class="btn btn-lg btn-cerrar" style="background:rgb(29, 53, 87) ;color: white;" data-dismiss="modal" style="width: 100%;">Cerrar</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+</html>

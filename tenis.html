@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="Styledeportes.css">
+      <link rel="stylesheet" href="StyleNavBar.css">
+      <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1195687266/SPlogo_400x400.png" type="image/x-icon">
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <!-- fuente -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+      <!-- fin de fuente -->
+      <title>SportsPage|Tenis</title>
+   </head>
+   <body>
+      <header id="header" class="sticky-top">
+         <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class=" container-fluid">
+               <a href="" class="navbar-brand">
+               <img src="https://pbs.twimg.com/profile_images/1195687266/SPlogo_400x400.png" alt="logoSP">
+               </a>
+               <button class="navbar-toggler"  data-target="#menu"  data-toggle="collapse" type="button">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="menu">
+                  <!-- lista de items -->
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                        <a href="./Main.html" class="nav-link">Home</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./futbol.html" class="nav-link">Fútbol</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./rugby.html" class="nav-link">Rugby</a>
+                     </li>
+                     <li class="nav-item disabled">
+                        <a href="./tenis.html" class="nav-link">Tenis</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./basquet.html" class="nav-link">Básquetbol</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./deportemotor.html" class="nav-link">Deporte Motor</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./error404.html" target="_blank" class="nav-link">Otros Deportes</a>
+                     </li>
+                  </ul>
+                  <!-- fin de items -->
+                  <!-- lista sin estilo para en vivo y fecha -->
+                  <ul class="list-unstyled ml-auto">
+                     <li>
+                        <a href="https://futbolparatodos.net/webmasters/" target="_blank">
+                           <!-- borrar un badge para que en vivo se vea mas grande -->
+                           <span class="badge badge-pill badge-info ">EN VIVO</span>
+                        </a>
+                     </li>
+                     <li>
+                        <span class="text-light">
+                           <script>
+                              var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                              var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+                              var f=new Date();
+                              document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                           </script>
+                        </span>
+                     </li>
+                  </ul>
+                  <!-- fin de lista sin estilo -->
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- Photo Grid -->
+      <section id="galeria">
+         <h3> ELIGE TU TORNEO PREFERIDO </h3>
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12">
+                  <a title="ATP " href=""><img src="./tenis/1559034320_814690_1559051788_noticia_normal.jpg" alt="ImagenGaleria" /></a>
+               </div>
+               <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12">
+                  <a title="GRAND SLAND " href=""><img src="./tenis/5ffe20003833d.jpg" alt="ImagenGaleria2" /></a>
+               </div>
+               <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12">
+                  <a title="ROLAND GARROS" href=""><img src="./tenis/noticia-1.jpg" alt="ImagenGaleria3" /></a>
+               </div>
+               <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12">
+                  <a title="ATP WORLD TOUR" href=""><img src="./tenis/NPOACGOSNZF2FMQDHYS73CJF2Y.jpg" alt="ImagenGaleria4" /></a>
+               </div>
+               <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12">
+                  <a title="ATP ROMA" href=""><img src="./tenis/roma-fase-previa.jpg" alt="ImagenGaleria5" /></a>
+               </div>
+               <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12">
+                  <a title="ROLLAND GARROS" href=""><img src="./tenis/TPO_205.jpeg" alt="ImagenGaleria6" /></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer id="footer">
+         <div class="container-fluid ">
+            <div class="col-sm col-md col-lg" id="footer">
+               <span>&copy; Copyright 2021 DynamoTech</span>
+            </div>
+         </div>
+      </footer>
+   </body>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</html>

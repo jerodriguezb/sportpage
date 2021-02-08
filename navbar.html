@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- CSS DE Bootstrap Y NAVBAR -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="estilonavbar.css">
+      <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1195687266/SPlogo_400x400.png" type="image/x-icon">
+      <!-- fuente -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+      <!-- link de fuente -->
+      <title>SportsPage</title>
+   </head>
+   <body>
+      <!-- header -->
+      <header id="header" class="sticky-top">
+         <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+               <a href="" class="navbar-brand">
+               <img src="https://pbs.twimg.com/profile_images/1195687266/SPlogo_400x400.png" alt="logoSP">
+               </a>
+               <button class="navbar-toggler"  data-target="#menu"  data-toggle="collapse" type="button">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="menu">
+                  <!-- lista de items -->
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                        <a href="#" class="nav-link">Fútbol</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="#" class="nav-link">Rugby</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="#" class="nav-link">Tenis</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="#" class="nav-link">Básquetbol</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="#" class="nav-link">Deporte Motor</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a href="./error404.html" target="_blank" class="nav-link">Otros Deportes</a>
+                     </li>
+                  </ul>
+                  <!-- fin de items -->
+                  <!-- lista sin estilo para en vivo y fecha -->
+                  <ul class="list-unstyled ml-auto">
+                     <li>
+                        <a href="https://futbolparatodos.net/webmasters/" target="_blank">
+                        <span class="badge badge-pill badge-info ">EN VIVO</span>
+                        </a>
+                     </li>
+                     <li>
+                        <span class="text-light">
+                           <script>
+                              var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                              var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+                              var f=new Date();
+                              document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                           </script>
+                        </span>
+                     </li>
+                  </ul>
+                  <!-- fin de lista sin estilo -->
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- fin de header -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   </body>
+</html>

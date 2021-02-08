@@ -1,0 +1,74 @@
+
+#galeria{
+
+    background-color: black;
+}
+#galeria img{
+    object-fit: cover;
+}
+
+
+
+#galeria .col-lg-12, .col-md-6, .col-sm-12{
+    margin:0 !important ;
+    padding: 15px;
+}
+#galeria .col-lg-12 img{
+    width: 100%;
+    height: 265px;
+}
+#galeria .col-md-6 .col-sm-12 img{
+    width: 100%;
+    height: 265px;
+}
+
+
+
+#galeria img:hover{
+
+    border: 5px solid black;
+}
+
+#galeria h3 {
+
+    
+    color: white;
+    font-family: 'Oswald', san-serif; 
+    text-align: center;
+    padding: 10px;
+}
+
+/* estilo footer */
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 7rem;
+    font-size: 1.5rem;
+    background:linear-gradient(to top,  rgb(230, 57, 70) 0%, rgb(29, 53, 87)50%,rgb(29, 53, 87) 100%) !important;
+    text-align: center;
+}
+
+#footer span{
+    font-family: 'Oswald', sans-serif; ;
+    margin: 0rem;
+}
+
+/* Ipad Pro Responsive */
+
+@media (width:1024px) {
+    #galeria .col-lg-12 img{
+        width: 100%;
+        height:400px;
+    }
+}
+
+
+
+
+        
+      
+        
+    

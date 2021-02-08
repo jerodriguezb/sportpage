@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5%;
+    /* scroll-behavior: smooth; Efecto scroll */
+}
+
+#header nav{
+    font-family: 'Oswald', sans-serif;  
+    background:linear-gradient(to top,  rgb(29, 53, 87) 0%, rgb(230, 57, 70)50%, rgb(230,57,70) 100%) !important;
+    font-size: 2rem;
+    min-height: 7rem;
+}
+
+#header img{
+    height:7rem;
+}
+
+#menu li{
+    padding-right:1.5rem;
+}
+
+#menu a:hover{
+    color: black;
+}
+
+.list-unstyled{
+    text-align: end;
+}
+
+

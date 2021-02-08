@@ -1,0 +1,246 @@
+html{
+    font-size: 62.5%;
+}
+
+/* estilo header */
+#header nav{
+    font-family: 'Oswald', sans-serif;  
+    background:linear-gradient(to top,  rgb(230, 57, 70) 0%, rgb(29, 53, 87)50%,rgb(29, 53, 87) 100%) !important;
+    font-size: 2rem;
+    min-height: 7rem;
+}
+
+#header img{
+    height:7rem;
+}
+
+#menu a{
+    text-align: center;
+}
+
+#menu a:hover{
+    color: black;
+}
+
+/* fin de estilo header */
+
+/* estilo modal iniciar sesion */
+
+.modal-content{
+    border-radius:1rem 1rem 0rem 0rem  ;
+    background:rgb(230,57,70) !important;
+    color: white;
+}
+
+ .login-box .avatar{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: relative;
+    top: -8.5rem;
+    left: calc(50% - 50px);
+}
+
+.login-box h1{
+    font-family: 'Oswald', sans-serif;
+    margin-top: -10rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.login-box label{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.login-box input{
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    color: black !important;
+}
+
+.login-box span{
+    display: inline;
+    padding-left:1rem ;        
+    color: white;
+    font-size: 2rem;
+}
+
+.modal-content button{
+    border: none;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    min-height: 4rem;
+    margin-bottom: 0rem;
+    font-size: 2rem;
+}
+
+.login-box input[type="text"], .login-box input[type="password"], .login-box input[type="email"]{
+    border: none;
+    border: 0.1rem solid rgb(29, 53, 87) ;
+    outline: none;
+    height: 4rem;
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.login-box button:hover{
+    color: black !important;
+    cursor: pointer;
+}
+
+.login-box a:hover{
+    color: black !important;
+    cursor: pointer;
+}
+
+/* fin de estilo modal */ 
+
+/*estilo main */
+
+#carousel img{
+    height: 50rem;
+    object-fit: cover;
+}
+
+#carousel h1{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2.5rem;      
+}
+
+/* fin de estilo main */
+
+/* estilo footer */
+
+.icon{
+    max-width: 3rem;
+    margin-bottom: 1rem;
+}
+
+.icons-row{
+    min-width: 100%;
+}
+
+.seguinos{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-size: medium;
+}
+
+.footer-font-size{
+    font-size: medium;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 7rem;
+    font-size: 2rem;
+    background:linear-gradient(to top,  rgb(230, 57, 70) 0%, rgb(29, 53, 87)50%,rgb(29, 53, 87) 100%) !important;
+    text-align: center;
+    min-width: 100%;
+}
+
+#footer{
+    font-family: 'Oswald', sans-serif; ;
+    margin: 0rem;
+}
+
+
+/* fin de estilo footer */
+
+/* breackpoints para que sea completamente responsive */
+
+@media screen and (min-width:280px) and (min-height:653px) {
+    #carousel img{
+        height: 58.3rem;
+        object-fit: cover;
+    }
+    .login-box span{
+        padding-left: 0rem;
+        font-size: 1.7rem;
+    }
+
+
+}
+
+@media screen and (min-width:359px) and (min-height:639px) {
+    #carousel img{
+        height: 57rem;
+        object-fit: cover;
+    } 
+}
+
+@media screen and (min-width:374px) and (min-height:666px) {
+    #carousel img{
+        height: 59.7rem;
+        object-fit: cover;
+    } 
+    .login-box span{
+        padding-left: 2rem;        
+    }
+}
+
+@media screen and (min-width:374px) and (min-height:811px) {
+    #carousel img{
+        height: 74.2rem;
+        object-fit: cover;
+    } 
+}
+
+@media screen and (min-width:410px) and (min-height:730px) {
+    #carousel img{
+        height: 66.1rem;
+        object-fit: cover;
+    }
+    .login-box span{
+        padding-left: 2rem;        
+    } 
+}
+
+@media screen and (min-width:410px) and (min-height:822px) {
+    #carousel img{
+        height: 75.3rem;
+        object-fit: cover;
+    } 
+}
+
+@media screen and (min-width:767px) and (min-height:1023px) {
+    #carousel img{
+        height: 95.4rem;
+        object-fit: cover;
+    }
+    .login-box span{
+        padding-left: 4rem;        
+    }
+     
+}
+
+@media screen and (min-width:1023px) and (min-height:1365px) {
+    #carousel img{
+        height: 129.6rem;
+        object-fit: cover;
+    }
+    .login-box span{
+        padding-left: 5rem;
+    }   
+}
+
+@media (min-width:1100px){
+    .login-box span{
+        padding-left: 2rem;
+        font-size: 2rem;
+    }
+}
